@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form name="calculator">
+        <table>
+        <tr>
+            <th colspan="4"><input type="text" name="screen"></th>
+        </tr>
+
+        <tr>
+            <td><button type="button" class="other" onclick="document.calculator.screen.value+=''">Ac</button></td>
+            <td><button type="button" class="other" onclick="document.calculator.screen.value=' '">Del</button></td>
+            <td><button type="button" class="other" onclick="document.calculator.screen.value+='%'">%</button></td>
+            <td><button type="button" class="other" onclick="document.calculator.screen.value+='/'">/</button></td>
+        </tr>
+
+        <tr>
+            <td><button type="button" class="number" onclick="document.calculator.screen.value+='7'">7</button></td>
+            <td><button type="button" class="number" onclick="document.calculator.screen.value+='8'">8</button></td>
+            <td><button type="button" class="number" onclick="document.calculator.screen.value+='9'">9</button></td>
+            <td><button type="button" class="other" onclick="document.calculator.screen.value+='*'">*</button></td>
+        </tr>
+
+        <tr>
+            <td><button type="button" class="number" onclick="document.calculator.screen.value+='4'">4</button></td>
+            <td><button type="button" class="number" onclick="document.calculator.screen.value+='5'">5</button></td>
+            <td><button type="button" class="number" onclick="document.calculator.screen.value+='6'">6</button></td>
+            <td><button type="button" class="other" onclick="document.calculator.screen.value+='-'">-</button></td>
+        </tr>
+
+        <tr>
+            <td><button type="button" class="number" onclick="document.calculator.screen.value+='1'">1</button></td>
+            <td><button type="button" class="number" onclick="document.calculator.screen.value+='2'">2</button></td>
+            <td><button type="button" class="number" onclick="document.calculator.screen.value+='3'">3</button></td>
+            <td><button type="button" class="other" onclick="document.calculator.screen.value+='+'">+</button></td>
+        </tr>
+
+        <tr>
+            <td><button type="button" class="number" onclick="document.calculator.screen.value+='00'">00</button></td>
+            <td><button type="button" class="number" onclick="document.calculator.screen.value+='0'">0</button></td>
+            <td><button type="button" class="number" onclick="document.calculator.screen.value+='.'">.</button></td>
+            <td><button type="button" class="other btn" onclick="document.calculator.screen.value=eval(document.calculator.screen.value)">=</button></td>
+        </tr>
+
+
+
+    </table>
+    </form>
+
+
+    
+</body>
+</html>
