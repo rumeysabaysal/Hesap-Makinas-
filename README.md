@@ -1,4 +1,4 @@
-# Hesap-Makinası-
+# Hesap-Makinası
 ![ekran](https://github.com/user-attachments/assets/897e9e5b-6c99-4cba-931a-977c6e8909a0)
 
 # Açıklama
